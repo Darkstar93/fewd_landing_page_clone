@@ -21,6 +21,9 @@ div {
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 
 }
 .top-navigation > .content {
@@ -63,7 +66,7 @@ div {
 }
 
 .introduction {
-	background-image: url('images/first-background.jpg');
+	background-image: url("images/first-background.jpg");
 	background-position: 0;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -90,3 +93,17 @@ button:hover {
 	border-color: #cf3d0e;
 	cursor: pointer;
 }
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+    display: inline-block;
+}
+
+
+
+
+
