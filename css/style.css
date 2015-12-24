@@ -11,12 +11,11 @@ body {
 	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
 	font-size 16px;
-	color: #838994;
 	letter-spacing: 0.03em;
 
 }
 div {
-	border: 1px solid; color: Chocolate;
+	display: block;
 }
 /* Navigation Section */
 .top-navigation {
@@ -30,6 +29,7 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	color: white;
 }
 .content	{
 	padding: 0px 15px;
@@ -66,12 +66,13 @@ div {
 }
 
 .introduction {
-	background-image: url("images/first-background.jpg");
-	background-position: 0;
+	background-image: url('../images/first-background.jpg');
+	background-position: center-bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 50% 50%;
 	height: 45.938rem;
-
+	overflow: auto;
 }
 .big-button {
 	text-shadow: none;
@@ -105,5 +106,16 @@ button:hover {
 
 
 
-
-
+.introduction h1, .introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
